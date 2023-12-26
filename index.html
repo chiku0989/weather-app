@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- boxicon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Weather App</title>
+</head>
+<body>
+
+    <div class="weather-box">
+        <div class="search-box">
+            <i class='bx bxs-map'></i>
+            <input type="text" placeholder="Enter Your Location" class="">
+            <button class="search-button"><i class='bx bx-search'></i></button>
+        </div>
+
+        <div class="code-404 not-active">  
+            <img src="images/404.png" alt="">
+            <p>Oops! Location not Found!</p>
+        </div>
+        
+        <div class="weather-info">
+            <img src="images/cloud.png" alt="">
+            <p class="temp">16°C</p>
+            <p class="weather-condition">Broken Clouds</p>
+
+
+            <div class="bottom-info">
+                <div class="humidity-div container">
+                    <i class='bx bx-water'></i>
+                    <div class="humidity-info">
+                    <span>0%</span>
+                    <p>Humidity</p>
+                    </div>
+                
+                </div>
+
+                <div class="wind-div container">
+                    <i class='bx bx-wind' ></i>
+                    <div class="wind-info"> 
+                        <span> 0 Km/h</span>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
